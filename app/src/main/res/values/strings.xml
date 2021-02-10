@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Online Study</string>
+    <string-array name="List">
+        <item> Android </item>
+        <item> Java </item>
+        <item> Oracle </item>
+        <item> Php </item>
+    </string-array>
+    <string-array name="bank_name">
+        <item>State bank</item>
+        <item>HDFC</item>
+        <item>ICICI</item>
+        <item>Kotak Mahendra</item>
+        <item>Abhinav Bank</item>
+    </string-array>
+</resources>

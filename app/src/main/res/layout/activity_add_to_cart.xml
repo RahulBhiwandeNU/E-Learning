@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.preksha.onlinelearning.add_to_cart"
+    android:scrollbars="vertical"
+    android:background="#e4e1e1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Courses to Cart "
+        android:textSize="30dp"
+        android:textColor="#12a"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LV"
+        >
+    </ListView>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:text="SAVE"
+        android:layout_height="wrap_content"
+        android:id="@+id/go"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="go to back"
+        android:id="@+id/back"/>
+
+</LinearLayout>

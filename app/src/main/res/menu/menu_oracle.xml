@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Mainmenu"
+        android:title="HOME"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+    <item
+        android:id="@+id/Checkout"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="CHECK OUT" />
+    <item
+        android:id="@+id/add_to_cart"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="ADD TO CART"/>
+    <item
+        android:id="@+id/exit"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="EXIT" />
+</menu>

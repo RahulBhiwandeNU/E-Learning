@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.preksha.onlinelearning.HomeActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COURSES"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        />
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TableRow
+        android:paddingBottom="20dp"
+        android:paddingTop="50dp">
+        <ImageButton
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/android"
+            android:layout_width="80dp"
+            android:id="@+id/c1"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="ANDROID"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="25dp">
+        <ImageButton
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/js"
+            android:layout_width="80dp"
+            android:id="@+id/c2"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="JAVA SCRIPT"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+        />
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="25dp">
+        <ImageButton
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/oracle"
+            android:layout_width="80dp"
+            android:id="@+id/c3"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="ORACLE"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+        />
+    </TableRow>
+
+    <TableRow
+        android:paddingBottom="25dp">
+        <ImageButton
+            android:background="@drawable/php"
+            android:contentDescription="@string/app_name"
+            android:layout_width="80dp"
+            android:id="@+id/c4"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="PHP DESCRIPTION"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+        />
+    </TableRow>
+
+
+</TableLayout>
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e4e1e1"
+    android:layout_height="match_parent"
+    tools:context="com.example.preksha.onlinelearning.Conformation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course selected : "
+        android:textSize="25sp"
+        android:id="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/course"
+        android:layout_below="@id/tv1"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total cost : "
+        android:textSize="20dp"
+        android:layout_below="@id/course"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_cost"
+        android:textSize="20dp"
+        android:layout_alignBottom="@id/tv2"
+        android:layout_toRightOf="@id/tv2"
+        android:layout_toEndOf="@id/tv2"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp" />
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ARE YOU SURE :"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:id="@+id/tv3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/tv3"
+        android:id="@+id/yes"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:layout_toRightOf="@id/yes"
+        android:layout_alignBottom="@id/yes"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/no"/>
+    </RelativeLayout>

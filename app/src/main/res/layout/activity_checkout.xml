@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e1e1"
+    tools:context="com.example.preksha.onlinelearning.Checkout">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textSize="30dp"
+        android:text="Your Selection"
+        android:textColor="#b838ba"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="20dp">
+        <TableRow>
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:textColor="#242322"
+                android:text="Courses Selected"/>
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:textColor="#171616"
+                android:text="Cost"/>
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:textColor="#0f0f0f"
+                android:text="After discount"/>
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center" />
+
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+        android:layout_marginTop="160dp"
+        android:layout_below="@id/tv1"
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv8"
+        android:textSize="30dp"
+        android:text="Pay By : "
+        android:textColor="#651e84"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:layout_below="@id/tv8"
+        android:layout_centerHorizontal="true">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:layout_gravity="center"
+            android:text="Credit Card"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:layout_gravity="center"
+            android:text="Debit Card"/>
+    </RadioGroup>
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/rg"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="#148b8f"
+        android:hint="Enter the Bank name" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autoCompleteTextView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:textColor="#148b8f"
+        android:inputType="phone"
+        android:hint="Enter Account number"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FF651E84"
+        android:text="submit" />
+</RelativeLayout>
